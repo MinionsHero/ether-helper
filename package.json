@@ -1,0 +1,33 @@
+{
+  "name": "ether-helper",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/MinionsHero/ether-helper.git",
+  "author": "MinionsHero",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && rimraf types && tsc"
+  },
+  "devDependencies": {
+    "@open-wc/building-rollup": "^2.0.1",
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.182",
+    "deepmerge": "^4.2.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.76.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "delay": "^5.0.0",
+    "ether-helper": "./",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "p-every": "^2.0.0",
+    "p-filter": "^3.0.0",
+    "p-map": "^5.5.0",
+    "p-one": "^2.0.0",
+    "p-reduce": "^3.0.0"
+  },
+  "types": "./types"
+}
